@@ -51,8 +51,8 @@ struct FactsViewChiken666: View {
                     .overlay {
                         VStack {
                             Text(fact.title)
-                                .withFont(size: 22, weight: .regular, color: .hex("ADE552"))
-                                .padding(.top, 16)
+                                .withFont(size: 20, weight: .regular, color: .hex("ADE552"))
+                                .padding(.top, 20)
                             Spacer()
                             Text(fact.content)
                                 .withFont(size: 19.5, weight: .thin)
@@ -391,7 +391,7 @@ fileprivate let facts: [FactChiken666] = [
         content: "The blue whale, known as the largest animal ever to have lived on Earth, can grow up to 30 meters (98 feet) long and weigh as much as 180 metric tons. These majestic marine mammals are found in all the world's oceans, except the Arctic. Despite their enormous size, blue whales feed mainly on tiny shrimp-like creatures called krill. They can consume up to 4 tons of krill a day during feeding seasons. The blue whale's size is unmatched in the animal kingdom, with its heart alone weighing as much as an automobile."
     ),
     FactChiken666(
-        title: "The First Human-Created Object to Leave the Solar System",
+        title: "The First Human-Created Object",
         content: "Voyager 1, launched by NASA in 1977, is the first human-made object to leave our solar system. The spacecraft's primary mission was to study Jupiter and Saturn, but it continued its journey out of the solar system after completing its tasks. In 2012, Voyager 1 crossed the boundary known as the heliopause, marking its exit from the influence of the Sun's solar wind. Currently, Voyager 1 is over 14 billion miles away from Earth and is still sending back scientific data, although its power is expected to run out by 2025. The Golden Record aboard Voyager 1 carries sounds and images representing humanity, designed as a message to potential extraterrestrial civilizations."
     ),
     FactChiken666(

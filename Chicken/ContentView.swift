@@ -140,8 +140,8 @@ struct ContentViewChiken666: View {
             .padding(.vertical)
             .padding(.bottom, 50)
             .background {
-                Color.hex("925C26")
-                    .opacity(0.58)
+                Color.hex("E57CA4")
+                    .opacity(0.85)
                 .edgesIgnoringSafeArea(.all)
             }
             .cornerRadius(41)

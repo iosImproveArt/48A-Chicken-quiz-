@@ -342,5 +342,5 @@ struct QuestionViewChiken666: View {
 }
 
 #Preview {
-    QuestionViewChiken666(type: .oneP)
+    QuestionViewChiken666(type: .withC)
 }

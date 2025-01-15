@@ -86,6 +86,7 @@ struct ProfileViewChiken666: View {
                         TextField("Whats your name?", text: $userName)
                             .padding(.horizontal, 15)
                             .padding(.horizontal, 6)
+                            .foregroundStyle(.white)
                     }
             }.padding(.vertical)
             
@@ -98,6 +99,7 @@ struct ProfileViewChiken666: View {
                         TextField("Whats your nickname?", text: $userNickname)
                             .padding(.horizontal, 15)
                             .padding(.horizontal, 6)
+                            .foregroundStyle(.white)
                     }
             }.padding(.bottom)
             

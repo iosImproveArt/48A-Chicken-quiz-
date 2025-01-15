@@ -11,7 +11,7 @@ struct PrivacyViewChiken666: View {
     @AppStorage("urlString") var urlString = ""
     
     var bg: Color {
-        urlString.isEmpty ? Color.hex("#A98357"): .black
+        urlString.isEmpty ? Color.hex("#C2215D"): .black
     }
     
     var isLoggedIn: Bool = true
