@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6A857392D379B24006FC51F /* ChickenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A857362D379B24006FC51F /* ChickenApp.swift */; };
+		F6A8573A2D379B24006FC51F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A857372D379B24006FC51F /* ContentView.swift */; };
+		F6A8573B2D379B24006FC51F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6A857332D379B24006FC51F /* Preview Assets.xcassets */; };
+		F6A8573C2D379B24006FC51F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6A857352D379B24006FC51F /* Assets.xcassets */; };
+		F6A8574D2D379BC3006FC51F /* FactsView Chiken666.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A857482D379BC3006FC51F /* FactsView Chiken666.swift */; };
+		F6A8574E2D379BC3006FC51F /* ImagePicker Chiken666.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A8574A2D379BC3006FC51F /* ImagePicker Chiken666.swift */; };
+		F6A8574F2D379BC3006FC51F /* WebView Chiken666.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A857412D379BC3006FC51F /* WebView Chiken666.swift */; };
+		F6A857502D379BC3006FC51F /* NotificationCenter Chiken666.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A857492D379BC3006FC51F /* NotificationCenter Chiken666.swift */; };
+		F6A857512D379BC3006FC51F /* QuestionView Chiken666.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A857442D379BC3006FC51F /* QuestionView Chiken666.swift */; };
+		F6A857522D379BC3006FC51F /* LoadingView Chiken666.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A8573E2D379BC3006FC51F /* LoadingView Chiken666.swift */; };
+		F6A857532D379BC3006FC51F /* PrivacyView Chiken666.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A857402D379BC3006FC51F /* PrivacyView Chiken666.swift */; };
+		F6A857542D379BC3006FC51F /* QuestionPickView Chiken666.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A857452D379BC3006FC51F /* QuestionPickView Chiken666.swift */; };
+		F6A857552D379BC3006FC51F /* QuestionViewModel Chiken666.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A857432D379BC3006FC51F /* QuestionViewModel Chiken666.swift */; };
+		F6A857562D379BC3006FC51F /* QuestionsView Chiken666.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A8573D2D379BC3006FC51F /* QuestionsView Chiken666.swift */; };
+		F6A857572D379BC3006FC51F /* ProfileView Chiken666.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A8574B2D379BC3006FC51F /* ProfileView Chiken666.swift */; };
+		F6A857582D379BC3006FC51F /* Extensions Chiken666.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A857472D379BC3006FC51F /* Extensions Chiken666.swift */; };
+		F6A857592D379BC3006FC51F /* privacy.html in Resources */ = {isa = PBXBuildFile; fileRef = F6A8573F2D379BC3006FC51F /* privacy.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F6A857222D379B1F006FC51F /* Chicken.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chicken.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6A857332D379B24006FC51F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F6A857352D379B24006FC51F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6A857362D379B24006FC51F /* ChickenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChickenApp.swift; sourceTree = "<group>"; };
+		F6A857372D379B24006FC51F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F6A8573D2D379BC3006FC51F /* QuestionsView Chiken666.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QuestionsView Chiken666.swift"; sourceTree = "<group>"; };
+		F6A8573E2D379BC3006FC51F /* LoadingView Chiken666.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoadingView Chiken666.swift"; sourceTree = "<group>"; };
+		F6A8573F2D379BC3006FC51F /* privacy.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = privacy.html; sourceTree = "<group>"; };
+		F6A857402D379BC3006FC51F /* PrivacyView Chiken666.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PrivacyView Chiken666.swift"; sourceTree = "<group>"; };
+		F6A857412D379BC3006FC51F /* WebView Chiken666.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WebView Chiken666.swift"; sourceTree = "<group>"; };
+		F6A857432D379BC3006FC51F /* QuestionViewModel Chiken666.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QuestionViewModel Chiken666.swift"; sourceTree = "<group>"; };
+		F6A857442D379BC3006FC51F /* QuestionView Chiken666.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QuestionView Chiken666.swift"; sourceTree = "<group>"; };
+		F6A857452D379BC3006FC51F /* QuestionPickView Chiken666.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QuestionPickView Chiken666.swift"; sourceTree = "<group>"; };
+		F6A857472D379BC3006FC51F /* Extensions Chiken666.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions Chiken666.swift"; sourceTree = "<group>"; };
+		F6A857482D379BC3006FC51F /* FactsView Chiken666.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FactsView Chiken666.swift"; sourceTree = "<group>"; };
+		F6A857492D379BC3006FC51F /* NotificationCenter Chiken666.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NotificationCenter Chiken666.swift"; sourceTree = "<group>"; };
+		F6A8574A2D379BC3006FC51F /* ImagePicker Chiken666.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImagePicker Chiken666.swift"; sourceTree = "<group>"; };
+		F6A8574B2D379BC3006FC51F /* ProfileView Chiken666.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProfileView Chiken666.swift"; sourceTree = "<group>"; };
+		F6A8575A2D379C1D006FC51F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6A8571F2D379B1F006FC51F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6A857192D379B1F006FC51F = {
+			isa = PBXGroup;
+			children = (
+				F6A857382D379B24006FC51F /* Chicken */,
+				F6A857232D379B1F006FC51F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6A857232D379B1F006FC51F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6A857222D379B1F006FC51F /* Chicken.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6A857342D379B24006FC51F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F6A857332D379B24006FC51F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F6A857382D379B24006FC51F /* Chicken */ = {
+			isa = PBXGroup;
+			children = (
+				F6A8575A2D379C1D006FC51F /* Info.plist */,
+				F6A857362D379B24006FC51F /* ChickenApp.swift */,
+				F6A857372D379B24006FC51F /* ContentView.swift */,
+				F6A8573D2D379BC3006FC51F /* QuestionsView Chiken666.swift */,
+				F6A857422D379BC3006FC51F /* Loading Chiken666 */,
+				F6A857462D379BC3006FC51F /* Questions Chiken666 */,
+				F6A857472D379BC3006FC51F /* Extensions Chiken666.swift */,
+				F6A857482D379BC3006FC51F /* FactsView Chiken666.swift */,
+				F6A857492D379BC3006FC51F /* NotificationCenter Chiken666.swift */,
+				F6A8574C2D379BC3006FC51F /* Profile Chiken666 */,
+				F6A857352D379B24006FC51F /* Assets.xcassets */,
+				F6A857342D379B24006FC51F /* Preview Content */,
+			);
+			path = Chicken;
+			sourceTree = "<group>";
+		};
+		F6A857422D379BC3006FC51F /* Loading Chiken666 */ = {
+			isa = PBXGroup;
+			children = (
+				F6A8573E2D379BC3006FC51F /* LoadingView Chiken666.swift */,
+				F6A8573F2D379BC3006FC51F /* privacy.html */,
+				F6A857402D379BC3006FC51F /* PrivacyView Chiken666.swift */,
+				F6A857412D379BC3006FC51F /* WebView Chiken666.swift */,
+			);
+			path = "Loading Chiken666";
+			sourceTree = "<group>";
+		};
+		F6A857462D379BC3006FC51F /* Questions Chiken666 */ = {
+			isa = PBXGroup;
+			children = (
+				F6A857432D379BC3006FC51F /* QuestionViewModel Chiken666.swift */,
+				F6A857442D379BC3006FC51F /* QuestionView Chiken666.swift */,
+				F6A857452D379BC3006FC51F /* QuestionPickView Chiken666.swift */,
+			);
+			path = "Questions Chiken666";
+			sourceTree = "<group>";
+		};
+		F6A8574C2D379BC3006FC51F /* Profile Chiken666 */ = {
+			isa = PBXGroup;
+			children = (
+				F6A8574A2D379BC3006FC51F /* ImagePicker Chiken666.swift */,
+				F6A8574B2D379BC3006FC51F /* ProfileView Chiken666.swift */,
+			);
+			path = "Profile Chiken666";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6A857212D379B1F006FC51F /* Chicken */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6A857302D379B20006FC51F /* Build configuration list for PBXNativeTarget "Chicken" */;
+			buildPhases = (
+				F6A8571E2D379B1F006FC51F /* Sources */,
+				F6A8571F2D379B1F006FC51F /* Frameworks */,
+				F6A857202D379B1F006FC51F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chicken;
+			packageProductDependencies = (
+			);
+			productName = Chicken;
+			productReference = F6A857222D379B1F006FC51F /* Chicken.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6A8571A2D379B1F006FC51F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					F6A857212D379B1F006FC51F = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = F6A8571D2D379B1F006FC51F /* Build configuration list for PBXProject "Chicken" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6A857192D379B1F006FC51F;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F6A857232D379B1F006FC51F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6A857212D379B1F006FC51F /* Chicken */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6A857202D379B1F006FC51F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6A8573B2D379B24006FC51F /* Preview Assets.xcassets in Resources */,
+				F6A857592D379BC3006FC51F /* privacy.html in Resources */,
+				F6A8573C2D379B24006FC51F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6A8571E2D379B1F006FC51F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6A857392D379B24006FC51F /* ChickenApp.swift in Sources */,
+				F6A8573A2D379B24006FC51F /* ContentView.swift in Sources */,
+				F6A8574D2D379BC3006FC51F /* FactsView Chiken666.swift in Sources */,
+				F6A8574E2D379BC3006FC51F /* ImagePicker Chiken666.swift in Sources */,
+				F6A8574F2D379BC3006FC51F /* WebView Chiken666.swift in Sources */,
+				F6A857502D379BC3006FC51F /* NotificationCenter Chiken666.swift in Sources */,
+				F6A857512D379BC3006FC51F /* QuestionView Chiken666.swift in Sources */,
+				F6A857522D379BC3006FC51F /* LoadingView Chiken666.swift in Sources */,
+				F6A857532D379BC3006FC51F /* PrivacyView Chiken666.swift in Sources */,
+				F6A857542D379BC3006FC51F /* QuestionPickView Chiken666.swift in Sources */,
+				F6A857552D379BC3006FC51F /* QuestionViewModel Chiken666.swift in Sources */,
+				F6A857562D379BC3006FC51F /* QuestionsView Chiken666.swift in Sources */,
+				F6A857572D379BC3006FC51F /* ProfileView Chiken666.swift in Sources */,
+				F6A857582D379BC3006FC51F /* Extensions Chiken666.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F6A8572E2D379B20006FC51F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F6A8572F2D379B20006FC51F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6A857312D379B20006FC51F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Chicken/Preview Content\"";
+				DEVELOPMENT_TEAM = FWVBV65566;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Chicken/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to the camera to set a photo for your profile.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = testleschenko.Chicken;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F6A857322D379B20006FC51F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Chicken/Preview Content\"";
+				DEVELOPMENT_TEAM = FWVBV65566;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Chicken/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to the camera to set a photo for your profile.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = testleschenko.Chicken;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6A8571D2D379B1F006FC51F /* Build configuration list for PBXProject "Chicken" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6A8572E2D379B20006FC51F /* Debug */,
+				F6A8572F2D379B20006FC51F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6A857302D379B20006FC51F /* Build configuration list for PBXNativeTarget "Chicken" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6A857312D379B20006FC51F /* Debug */,
+				F6A857322D379B20006FC51F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6A8571A2D379B1F006FC51F /* Project object */;
+}
