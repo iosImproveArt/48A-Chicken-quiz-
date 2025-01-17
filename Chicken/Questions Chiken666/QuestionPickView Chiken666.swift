@@ -22,6 +22,7 @@ struct QuestionPickViewChiken666: View {
     func calculateSquare(of number: Int) -> Int {
         return number * number
     }
+    var hwrfnxcjerf = "wrfcwrf"
 
     func fetchCurrentDate() -> String {
         let formatter = DateFormatter()
